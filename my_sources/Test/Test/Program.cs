@@ -14,6 +14,7 @@ namespace Test
             Console.WriteLine("Test!!!");
             Console.ReadKey();
             Console.BackgroundColor = ConsoleColor.DarkMagenta;
+            Console.WriteLine("Test");
         }
     }
 }
