@@ -10,7 +10,10 @@ namespace Test
     {
         static void Main(string[] args)
         {
+            Console.BackgroundColor = ConsoleColor.DarkGreen;
             Console.WriteLine("Test!!!");
+            Console.ReadKey();
+            Console.BackgroundColor = ConsoleColor.DarkMagenta;
         }
     }
 }
