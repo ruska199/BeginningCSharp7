@@ -12,9 +12,11 @@ namespace Test
         {
             Console.BackgroundColor = ConsoleColor.DarkGreen;
             Console.WriteLine("Test!!!");
-            Console.ReadKey();
             Console.BackgroundColor = ConsoleColor.DarkMagenta;
-            Console.WriteLine("Test");
+            Console.WriteLine("Test!!!");
+            Console.BackgroundColor = ConsoleColor.DarkRed;
+            Console.WriteLine("Test!!!");
+            Console.ReadKey();
         }
     }
 }
