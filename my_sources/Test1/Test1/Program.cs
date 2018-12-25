@@ -1,4 +1,9 @@
-﻿using System;
+﻿/*
+Illustrated c-7 5th Ed.
+Some code outlines
+25.12.18
+*/
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -24,11 +29,13 @@ namespace Test1
             Console.WriteLine("|{1,  5}{0, -5}|", arr[0], arr[1]);
             Console.WriteLine("|{2, -5}{1, 5}|", arr[0], arr[1], arr[2]);
             Console.WriteLine("_______________________________________\n");
+            //with double
             Console.WriteLine($"{myDouble, -10:F4}");
             Console.WriteLine($"{myDouble, 10:F2}");
             Console.WriteLine($"{myDouble, -10:E4}");
             Console.WriteLine($"{myInt, -10:X}");
             Console.WriteLine("_______________________________________\n");
+            //with text
             Console.WriteLine($"{text, 20}");
             Console.WriteLine($"{text, 15}");
             Console.ReadKey();
