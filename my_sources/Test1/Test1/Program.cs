@@ -17,8 +17,9 @@ namespace Test1
             int[] arr = {100, 200, 300, 400};
             double myDouble = 13.543267;
             string text = "Some text";
-            Console.WriteLine($"The value: {myInt:C}");
-            Console.WriteLine($"The value: {myInt:F}");
+            Console.WriteLine($"The value: ${myInt:F2}");
+            Console.WriteLine($"The value: {myInt:F4}");
+            Console.WriteLine($"The value: {myInt:D4}");
             Console.WriteLine("|{0,  10}|", myInt);
             Console.WriteLine("|{1,  5}{0, -5}|", arr[0], arr[1]);
             Console.WriteLine("|{2, -5}{1, 5}|", arr[0], arr[1], arr[2]);
